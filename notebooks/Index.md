@@ -27,7 +27,7 @@ The text is released under the [CC-BY-NC-ND license](https://creativecommons.org
 
 ### [Preface](00.00-Preface.ipynb)
 
-### [IPython: Beyond Normal Python](01.00-IPython-Beyond-Normal-Python.ipynb)
+### [1. IPython: Beyond Normal Python](01.00-IPython-Beyond-Normal-Python.ipynb)
 - [Help and Documentation in IPython](01.01-Help-And-Documentation.ipynb)
 - [Keyboard Shortcuts in the IPython Shell](01.02-Shell-Keyboard-Shortcuts.ipynb)
 - [IPython Magic Commands](01.03-Magic-Commands.ipynb)
@@ -37,7 +37,7 @@ The text is released under the [CC-BY-NC-ND license](https://creativecommons.org
 - [Profiling and Timing Code](01.07-Timing-and-Profiling.ipynb)
 - [More IPython Resources](01.08-More-IPython-Resources.ipynb)
 
-### [Introduction to NumPy](02.00-Introduction-to-NumPy.ipynb)
+### [2. Introduction to NumPy](02.00-Introduction-to-NumPy.ipynb)
 - [Understanding Data Types in Python](02.01-Understanding-Data-Types.ipynb)
 - [The Basics of NumPy Arrays](02.02-The-Basics-Of-NumPy-Arrays.ipynb)
 - [Computation on NumPy Arrays: Universal Functions](02.03-Computation-on-arrays-ufuncs.ipynb)
@@ -48,10 +48,23 @@ The text is released under the [CC-BY-NC-ND license](https://creativecommons.org
 - [Sorting Arrays](02.08-Sorting.ipynb)
 - [Structured Data: NumPy's Structured Arrays](02.09-Structured-Data-NumPy.ipynb)
 
-### Data Manipulation with Pandas *(coming soon)*
+### [3. Data Manipulation with Pandas](03.00-Introduction-to-Pandas.ipynb)
+- [Introducing Pandas Objects](03.01-Introducing-Pandas-Objects.ipynb)
+- [Data Indexing and Selection](03.02-Data-Indexing-and-Selection.ipynb)
+- [Operating on Data in Pandas](03.03-Operations-in-Pandas.ipynb)
+- [Handling Missing Data](03.04-Missing-Values.ipynb)
+- [Hierarchical Indexing](03.05-Hierarchical-Indexing.ipynb)
+- [Combining Datasets: Concat and Append](03.06-Concat-And-Append.ipynb)
+- [Combining Datasets: Merge and Join](03.07-Merge-and-Join.ipynb)
+- [Aggregation and Grouping](03.08-Aggregation-and-Grouping.ipynb)
+- [Pivot Tables](03.09-Pivot-Tables.ipynb)
+- [Vectorized String Operations](03.10-Working-With-Strings.ipynb)
+- [Working with Time Series](03.11-Working-with-Time-Series.ipynb)
+- [High-Performance Pandas: eval() and query()](03.12-Performance-Eval-and-Query.ipynb)
+- [Further Resources](03.13-Further-Resources.ipynb)
 
-### Visualization with Matplotlib *(coming soon)*
+### 4. Visualization with Matplotlib *(coming soon)*
 
-### Machine Learning *(coming soon)*
+### 5. Machine Learning *(coming soon)*
 
 ### [Appendix: Figure Code](06.00-Figure-Code.ipynb)
