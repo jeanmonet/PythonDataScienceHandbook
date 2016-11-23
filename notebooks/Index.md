@@ -63,7 +63,22 @@ The text is released under the [CC-BY-NC-ND license](https://creativecommons.org
 - [High-Performance Pandas: eval() and query()](03.12-Performance-Eval-and-Query.ipynb)
 - [Further Resources](03.13-Further-Resources.ipynb)
 
-### 4. Visualization with Matplotlib *(coming soon)*
+### [4. Visualization with Matplotlib](04.00-Introduction-To-Matplotlib.ipynb)
+- [Simple Line Plots](04.01-Simple-Line-Plots.ipynb)
+- [Simple Scatter Plots](04.02-Simple-Scatter-Plots.ipynb)
+- [Visualizing Errors](04.03-Errorbars.ipynb)
+- [Density and Contour Plots](04.04-Density-and-Contour-Plots.ipynb)
+- [Histograms, Binnings, and Density](04.05-Histograms-and-Binnings.ipynb)
+- [Customizing Plot Legends](04.06-Customizing-Legends.ipynb)
+- [Customizing Colorbars](04.07-Customizing-Colorbars.ipynb)
+- [Multiple Subplots](04.08-Multiple-Subplots.ipynb)
+- [Text and Annotation](04.09-Text-and-Annotation.ipynb)
+- [Customizing Ticks](04.10-Customizing-Ticks.ipynb)
+- [Customizing Matplotlib: Configurations and Stylesheets](04.11-Settings-and-Stylesheets.ipynb)
+- [Three-Dimensional Plotting in Matplotlib](04.12-Three-Dimensional-Plotting.ipynb)
+- [Geographic Data with Basemap](04.13-Geographic-Data-With-Basemap.ipynb)
+- [Visualization with Seaborn](04.14-Visualization-With-Seaborn.ipynb)
+- [Further Resources](04.15-Further-Resources.ipynb)
 
 ### 5. Machine Learning *(coming soon)*
 
