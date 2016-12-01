@@ -7,7 +7,7 @@ jupyter:
       format_version: '1.1'
       jupytext_version: 1.1.6
   kernelspec:
-    display_name: Python [default]
+    display_name: Python 3
     language: python
     name: python3
 ---
@@ -20,7 +20,7 @@ jupyter:
 
 
 This is the Jupyter notebook version of the [Python Data Science Handbook](http://shop.oreilly.com/product/0636920034919.do) by Jake VanderPlas; the content is available [on GitHub](https://github.com/jakevdp/PythonDataScienceHandbook).*
-The text is released under the [CC-BY-NC-ND license](https://creativecommons.org/licenses/by-nc-nd/3.0/us/legalcode), and code is released under the [MIT license](https://opensource.org/licenses/MIT). If you find this content useful, please support the work by [buying the book](http://shop.oreilly.com/product/0636920034919.do)!
+The text is released under the [CC-BY-NC-ND license](https://creativecommons.org/licenses/by-nc-nd/3.0/us/legalcode), and code is released under the [MIT license](https://opensource.org/licenses/MIT). If you find this content useful, please consider supporting the work by [buying the book](http://shop.oreilly.com/product/0636920034919.do)!
 
 
 ## Table of Contents
@@ -80,6 +80,21 @@ The text is released under the [CC-BY-NC-ND license](https://creativecommons.org
 - [Visualization with Seaborn](04.14-Visualization-With-Seaborn.ipynb)
 - [Further Resources](04.15-Further-Resources.ipynb)
 
-### 5. Machine Learning *(coming soon)*
+### [5. Machine Learning](05.00-Machine-Learning.ipynb)
+- [What Is Machine Learning?](05.01-What-Is-Machine-Learning.ipynb)
+- [Introducing Scikit-Learn](05.02-Introducing-Scikit-Learn.ipynb)
+- [Hyperparameters and Model Validation](05.03-Hyperparameters-and-Model-Validation.ipynb)
+- [Feature Engineering](05.04-Feature-Engineering.ipynb)
+- [In Depth: Naive Bayes Classification](05.05-Naive-Bayes.ipynb)
+- [In Depth: Linear Regression](05.06-Linear-Regression.ipynb)
+- [In-Depth: Support Vector Machines](05.07-Support-Vector-Machines.ipynb)
+- [In-Depth: Decision Trees and Random Forests](05.08-Random-Forests.ipynb)
+- [In Depth: Principal Component Analysis](05.09-Principal-Component-Analysis.ipynb)
+- [In-Depth: Manifold Learning](05.10-Manifold-Learning.ipynb)
+- [In Depth: k-Means Clustering](05.11-K-Means.ipynb)
+- [In Depth: Gaussian Mixture Models](05.12-Gaussian-Mixtures.ipynb)
+- [In-Depth: Kernel Density Estimation](05.13-Kernel-Density-Estimation.ipynb)
+- [Application: A Face Detection Pipeline](05.14-Image-Features.ipynb)
+- [Further Machine Learning Resources](05.15-Learning-More.ipynb)
 
 ### [Appendix: Figure Code](06.00-Figure-Code.ipynb)
