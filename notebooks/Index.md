@@ -14,6 +14,7 @@ jupyter:
 
 # Python Data Science Handbook
 
+
 *Jake VanderPlas*
 
 ![Book Cover](figures/PDSH-cover.png)
