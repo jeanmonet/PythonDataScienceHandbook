@@ -2,7 +2,8 @@
 
 > This is a fork of Jake Vanderplas' Python Data Science Handbook, in which every Jupyter notebook was transformed to a plain Markdown file using [Jupytext](https://github.com/mwouts/jupytext).
 > - Open this fork on  [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/mwouts/PythonDataScienceHandbook/jupytext_no_ipynb?filepath=notebooks%2FIndex.md)
-> - See https://github.com/mwouts/jupytext/issues/263.
+> - Explore the [commit history](https://github.com/mwouts/PythonDataScienceHandbook/commits/jupytext_no_ipynb?after=4213d731ac9ec09ac4a928cfae737c045bbd72b4+105) and see how the diffs look like when we use `.md` files rather than `.ipynb` files.
+> - If you want to know more, see how we have [rewritten the full history](https://github.com/mwouts/jupytext/issues/263) for this project with Jupytext.
 
 [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/jakevdp/PythonDataScienceHandbook/master?filepath=notebooks%2FIndex.md)
 [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jakevdp/PythonDataScienceHandbook/blob/master/notebooks/Index.md)
