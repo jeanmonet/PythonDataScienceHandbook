@@ -1,9 +1,11 @@
 # Python Data Science Handbook
 
-> This is a fork of Jake Vanderplas' Python Data Science Handbook, in which every Jupyter notebook was transformed to a plain Markdown file using [Jupytext](https://github.com/mwouts/jupytext). See https://github.com/mwouts/jupytext/issues/263. 
+> This is a fork of Jake Vanderplas' Python Data Science Handbook, in which every Jupyter notebook was transformed to a plain Markdown file using [Jupytext](https://github.com/mwouts/jupytext).
+> - Open this fork on  [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/mwouts/PythonDataScienceHandbook/jupytext_no_ipynb?filepath=notebooks%2FIndex.md)
+> - See https://github.com/mwouts/jupytext/issues/263.
 
-[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/jakevdp/PythonDataScienceHandbook/master?filepath=notebooks%2FIndex.ipynb)
-[![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jakevdp/PythonDataScienceHandbook/blob/master/notebooks/Index.ipynb)
+[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/jakevdp/PythonDataScienceHandbook/master?filepath=notebooks%2FIndex.md)
+[![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jakevdp/PythonDataScienceHandbook/blob/master/notebooks/Index.md)
 
 This repository contains the entire [Python Data Science Handbook](http://shop.oreilly.com/product/0636920034919.do), in the form of (free!) Jupyter notebooks.
 
@@ -15,9 +17,9 @@ This repository contains the entire [Python Data Science Handbook](http://shop.o
 
 - Run the code using the Jupyter notebooks available in this repository's [notebooks](notebooks) directory.
 
-- Launch executable versions of these notebooks using [Google Colab](http://colab.research.google.com): [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jakevdp/PythonDataScienceHandbook/blob/master/notebooks/Index.ipynb)
+- Launch executable versions of these notebooks using [Google Colab](http://colab.research.google.com): [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jakevdp/PythonDataScienceHandbook/blob/master/notebooks/Index.md)
 
-- Launch a live notebook server with these notebooks using [binder](https://beta.mybinder.org/): [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/jakevdp/PythonDataScienceHandbook/master?filepath=notebooks%2FIndex.ipynb)
+- Launch a live notebook server with these notebooks using [binder](https://beta.mybinder.org/): [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/jakevdp/PythonDataScienceHandbook/master?filepath=notebooks%2FIndex.md)
 
 - Buy the printed book through [O'Reilly Media](http://shop.oreilly.com/product/0636920034919.do)
 
@@ -29,7 +31,7 @@ The book introduces the core libraries essential for working with data in Python
 Familiarity with Python as a language is assumed; if you need a quick introduction to the language itself, see the free companion project,
 [A Whirlwind Tour of Python](https://github.com/jakevdp/WhirlwindTourOfPython): it's a fast-paced introduction to the Python language aimed at researchers and scientists.
 
-See [Index.ipynb](http://nbviewer.jupyter.org/github/jakevdp/PythonDataScienceHandbook/blob/master/notebooks/Index.ipynb) for an index of the notebooks available to accompany the text.
+See [Index.md](http://nbviewer.jupyter.org/github/jakevdp/PythonDataScienceHandbook/blob/master/notebooks/Index.md) for an index of the notebooks available to accompany the text.
 
 ## Software
 

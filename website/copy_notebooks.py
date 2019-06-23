@@ -39,7 +39,7 @@ def copy_notebooks():
         os.makedirs(PAGE_DEST_DIR)
 
     nblist = sorted(nb for nb in os.listdir(NB_SOURCE_DIR)
-                    if nb.endswith('.ipynb'))
+                    if nb.endswith('.md'))
     name_map = {nb: nb.rsplit('.', 1)[0].lower() + '.html'
                 for nb in nblist}
 
@@ -61,7 +61,7 @@ def copy_notebooks():
         content = jupytext.readf(os.path.join(NB_SOURCE_DIR, nb),
                                 as_version=4)
 
-        if nb == 'Index.ipynb':
+        if nb == 'Index.md':
             # content[0] is the title
             # content[1] is the cover image
             # content[2] is the license
