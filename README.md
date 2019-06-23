@@ -1,9 +1,14 @@
 # Python Data Science Handbook
 
-> This is a fork of Jake Vanderplas' Python Data Science Handbook, in which every Jupyter notebook was transformed to a plain Markdown file using [Jupytext](https://github.com/mwouts/jupytext).
+> What would Jake Vanderplas' Python Data Science Handbook have looked like if it used [Jupytext](https://github.com/mwouts/jupytext) from inception?
+> 
+> This is an unusual idea, and a complete anachronism: Jupytext was introduced in the late 2018, while Jake had already contributed most of his notebooks in 2016. But... it works! And was just a matter of running:
+> 
+>     git filter-branch --tree-filter 'jupytext --to md */*.ipynb && rm -f */*.ipynb' HEAD
+>
 > - Open this fork on  [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/mwouts/PythonDataScienceHandbook/jupytext_no_ipynb?filepath=notebooks%2FIndex.md)
 > - Explore the [commit history](https://github.com/mwouts/PythonDataScienceHandbook/commits/jupytext_no_ipynb?after=4213d731ac9ec09ac4a928cfae737c045bbd72b4+105) and see how the diffs look like when we use `.md` files rather than `.ipynb` files.
-> - If you want to know more, see how we have [rewritten the full history](https://github.com/mwouts/jupytext/issues/263) for this project with Jupytext.
+> - See the full details of how it was done on this [GitHub issue](https://github.com/mwouts/jupytext/issues/263).
 
 [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/jakevdp/PythonDataScienceHandbook/master?filepath=notebooks%2FIndex.md)
 [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jakevdp/PythonDataScienceHandbook/blob/master/notebooks/Index.md)
