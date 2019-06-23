@@ -1,5 +1,7 @@
 # Python Data Science Handbook
 
+> This is a fork of Jake Vanderplas' Python Data Science Handbook, in which every Jupyter notebook was transformed to a plain Markdown file using [Jupytext](https://github.com/mwouts/jupytext). See https://github.com/mwouts/jupytext/issues/263. 
+
 [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/jakevdp/PythonDataScienceHandbook/master?filepath=notebooks%2FIndex.ipynb)
 [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jakevdp/PythonDataScienceHandbook/blob/master/notebooks/Index.ipynb)
 
