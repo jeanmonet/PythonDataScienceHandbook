@@ -3,7 +3,7 @@ This script copies all notebooks from the book into the website directory, and
 creates pages which wrap them and link together.
 """
 import os
-import nbformat
+import jupytext
 import shutil
 
 PAGEFILE = """title: {title}
@@ -58,7 +58,7 @@ def copy_notebooks():
         base, ext = os.path.splitext(nb)
         print('-', nb)
 
-        content = nbformat.read(os.path.join(NB_SOURCE_DIR, nb),
+        content = jupytext.readf(os.path.join(NB_SOURCE_DIR, nb),
                                 as_version=4)
 
         if nb == 'Index.ipynb':
@@ -96,7 +96,7 @@ def copy_notebooks():
                 # Undo replacement of notebook link in the colab badge
                 cell.source = nb.join(cell.source.rsplit(name_map[nb], 1))
 
-        nbformat.write(content, os.path.join(NB_DEST_DIR, nb))
+        jupytext.writef(content, os.path.join(NB_DEST_DIR, nb))
 
         pagefile = os.path.join(PAGE_DEST_DIR, base + '.md')
         htmlfile = base.lower() + '.html'

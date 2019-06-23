@@ -1,7 +1,7 @@
 import os
 import re
 import itertools
-import nbformat
+import jupytext
 
 NOTEBOOK_DIR = os.path.join(os.path.dirname(__file__), '..', 'notebooks')
 
@@ -12,7 +12,7 @@ CHAPTERS = {"00": "Preface",
             "04": "Matplotlib",
             "05": "Machine Learning"}
 
-REG = re.compile(r'(\d\d)\.(\d\d)-(.*)\.ipynb')
+REG = re.compile(r'(\d\d)\.(\d\d)-(.*)\.md')
 
 
 def iter_notebooks():
@@ -20,7 +20,7 @@ def iter_notebooks():
 
 
 def get_notebook_title(nb_file):
-    nb = nbformat.read(os.path.join(NOTEBOOK_DIR, nb_file), as_version=4)
+    nb = jupytext.readf(os.path.join(NOTEBOOK_DIR, nb_file), as_version=4)
     for cell in nb.cells:
         if cell.source.startswith('#'):
             return cell.source[1:].splitlines()[0].strip()

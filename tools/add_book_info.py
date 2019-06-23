@@ -1,6 +1,6 @@
 import os
 
-import nbformat
+import jupytext
 from nbformat.v4.nbbase import new_markdown_cell
 
 from generate_contents import iter_notebooks, NOTEBOOK_DIR
@@ -20,7 +20,7 @@ BOOK_INFO = BOOK_COMMENT + """
 def add_book_info():
     for nb_name in iter_notebooks():
         nb_file = os.path.join(NOTEBOOK_DIR, nb_name)
-        nb = nbformat.read(nb_file, as_version=4)
+        nb = jupytext.readf(nb_file, as_version=4)
 
         is_comment = lambda cell: cell.source.startswith(BOOK_COMMENT)
 
@@ -30,7 +30,7 @@ def add_book_info():
         else:
             print('- inserting comment for {0}'.format(nb_name))
             nb.cells.insert(0, new_markdown_cell(BOOK_INFO))
-        nbformat.write(nb, nb_file)
+        jupytext.writef(nb, nb_file)
 
 
 if __name__ == '__main__':

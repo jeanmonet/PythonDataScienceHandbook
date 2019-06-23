@@ -2,7 +2,7 @@ import os
 import itertools
 
 from ipykernel import kernelspec as ks
-import nbformat
+import jupytext
 from nbformat.v4.nbbase import new_markdown_cell
 
 from generate_contents import NOTEBOOK_DIR, REG, iter_notebooks, get_notebook_title
@@ -43,7 +43,7 @@ def iter_navbars():
 
 def write_navbars():
     for nb_name, navbar in iter_navbars():
-        nb = nbformat.read(nb_name, as_version=4)
+        nb = jupytext.readf(nb_name, as_version=4)
         nb_file = os.path.basename(nb_name)
         is_comment = lambda cell: cell.source.startswith(NAV_COMMENT)
 
@@ -58,7 +58,7 @@ def write_navbars():
             nb.cells[-1].source = navbar
         else:
             nb.cells.append(new_markdown_cell(source=navbar))
-        nbformat.write(nb, nb_name)
+        jupytext.writef(nb, nb_name)
 
 
 if __name__ == '__main__':
